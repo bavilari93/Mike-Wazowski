@@ -93,8 +93,41 @@ div.arm.right{
 	transform: rotate(40deg);
 }
 
+.leg{
+	background-color: #AED137; 
+	width: 1.67rem;
+	height: 5rem;
+	margin-top: 13rem;
+	margin-left: -3rem;
+}
+.leg:before{
+	content: '';
+	position: absolute;
+	background: #AED137;
+	width: 2.5rem;
+	height: 1.67rem;
+	border-radius: 200% 200% 100% 100%;
+	margin-top: 3.8rem;
+	margin-left: -.5rem;
+}
+.nail{
+	background-color: #FFF; 
+	border-radius: 10px;
+	height: .3rem;
+	width:.3rem;
+	margin-top: 5.1rem;
+	position: absolute;
+}
+.nail.one{
+	margin-left: .5rem;
+}
+.nail.two{
+	margin-left: 1rem;
+}
 
-
+div.leg.two{
+	margin-left: 2.6rem;
+}
 
 
 
